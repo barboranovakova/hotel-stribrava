@@ -1,0 +1,7 @@
+header {
+  background-image: url(./img/hotel.jpg);
+  background-color: pink;
+  height: 600px;
+  background-size: contain;
+
+}
