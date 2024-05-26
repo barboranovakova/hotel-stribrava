@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './style.css';
 export const Room = ({ id, img, name, price, onSelect }) => {
   return (

@@ -27,7 +27,7 @@ export const Rooms = ({ selectedRooms, onRoomSelect }) => {
               key={pokoj.id}
               id={pokoj.id}
               name={pokoj.name}
-              price={pokoj.price}
+              price={`${pokoj.price} kč na osobu`}
               img={`http://localhost:4000/assets/${pokoj.image}`}
               onSelect={onRoomSelect}
             />
